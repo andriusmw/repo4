@@ -4,29 +4,48 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mi página Ejercicio1</title>
+    <title>Mi página Ejercicio2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="main.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Título de la página</h1>
+    <header >
+        <h1>Gatuki.meow</h1>
     </header>
     <section id="articulos-gato">
-        <article>
+        <!-----Artículo 1-->
+        <article class="art1">
             <h2>Artículo 1 : Los gatos son monos</h2>
             <img src="images/gatostada.png" alt="gatostada">
-        </article>
-        <h2>Artículo 1 : Los gatos siguen siendo monos</h2>
-        <img src="images/gato.jpg" alt="gatostada">
-        <article>
+            <p>Según nuestros estudios realizados en la universidad gatuna de Minesota 
+                <a href="#" target="_self">...Leer más</a>
 
+            </p>
         </article>
-    </section>
-    <section id="02">
+        <!--------Artículo 2 ------>
         <article>
+        <h2>Artículo 2 : Los gatos siguen siendo monos</h2>
+        <img src="images/gato.jpg" alt="gatostada">
+        <p>Acorde a la última encuesta realizada por la revista CATToday; los gatos 
+                <a href="#" target="_self">...Leer más</a>
+
+            </p>
+        </article>
+        <!---  aside barra lateral-->
+        <aside id="03">
+                <article>
+                    <h2>Visita nuestra sección de comida para gatos </h2>
+                    <a href="comidagatos.html"> Página interna comida para gatos </a>
+                    <h2>Sitios asociados</h2>
+                    <a href="https://www.google.es">Enlace externo (google)</a>
+                </article>
+            </aside>
+    </section>
+    <!-- listas-->
+    <section id="listas" >
+        <article id="ord">
             <ul>
                 <li> gato 1</li>
                 <li> gato 2</li>
@@ -34,44 +53,17 @@
                 <li> <strong>Gato 2.5</strong> </li>
             </ul>
         </article>
+        <article id="nord">
         <ol>
             <li> gato1</li>
             <li> <em>perro </em> (?) </li>
             <li> gato </li>
             <li> gato </li>
         </ol>
-    </section>
-    <section id="03">
-        <article>
-            <h2>Visita nuestra sección de comida para gatos </h2>
-            <a href="comidagatos.html"> Página interna comida para gatos </a>
-            <h2>Sitios asociados</h2>
-            <a href="https://www.google.es">Enlace externo (google)</a>
         </article>
     </section>
-    <section id="04">
-        <article>
-            <form method="POST" action="tratamiento.php">
-                <p>Formulario</p>
-                <label>Indica tu nombre:</label><input type="text" name="Nombre" id="nombreF">
-                <br />
-                <label>Escriba su comentario acerca ...</label>
-                <br />
-                <textarea name="areaDeTexto" id="textareaF" placeholder="escribeme"></textarea>
-                <br />
-                <label>chec</label>
-                <input type="checkbox" name="check" id="checkF">
-                <br />
-                <label>Desplegable</label>
-                <select>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </form>
-        </article>
-    </section>
+  
+  
     <footer>
         <p>Página web de gatosEmpire S.G </p>
     </footer>

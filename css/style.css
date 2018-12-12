@@ -1,3 +1,80 @@
+
+/*------------------------------ESTRUCTURA Y CUPERO ---------------------------*/
 body {
-    background-color: blue;
+    background-color: whitesmoke;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+
+}
+header h1 {
+    text-align: center;
+
+}
+
+section {
+    width: 100%;
+    height: 50%;
+
+}
+
+article {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: blueviolet
+
+}
+
+aside article{
+    background-color: aqua;
+    float: left;
+    width: 100%;
+    height: 100%;
+
+}
+section .art1{
+    background-color: yellow;
+
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: brown
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*--------------------------------------específicos ID------------------*/
+
+#listas {
+    width: 100%;
+}
+
+#ord {
+    width: 100%;
+    background-color: red
+}
+
+
+#nord {
+    width: 100%;
+    background-color: green
+}
+
+img {
+    width: 80%;
+    height: 80%;
 }
