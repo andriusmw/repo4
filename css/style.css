@@ -3,6 +3,7 @@
 body {
     background-color: whitesmoke;
     height: 100vh;
+   
 }
 
 header {
@@ -12,6 +13,7 @@ header {
 }
 header h1 {
     text-align: center;
+    
 
 }
 
@@ -25,6 +27,7 @@ article {
     width: 40%;
     height: 100%;
     float: left;
+    padding: 1%;
     background-color: blueviolet
 
 }
@@ -95,6 +98,9 @@ img {
 }
 
 /*---------------------------------------Elementos ------------------------*/
+/*h1::before {
+    content: url(https://cdn3.iconfinder.com/data/icons/farm-animals/128/cat-512.png)
+  }*/
 
 a:hover{
     color: chartreuse;
@@ -114,9 +120,16 @@ p::first-letter{
     font-size: 2em;
 }
 
+::selection {
+    color: red;
+    background: yellow;
+  }
+
+/*--------------------------------------------RESPONSIVE --------------------------------------*/
 @media only screen and (max-width: 500px) {
     body {
       background-color: lightblue;
+      font-size: 3vw;
     }
     #welcome2 {
         background-color: aqua;
